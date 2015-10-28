@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_listview_refresh"
+    style="@style/layout_white_bg"
+    android:orientation="vertical">
+
+    <zwb.social.view.huitanScrollView.StretchScrollView
+        android:layout_width="match_parent"
+        android:fillViewport="true"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:id="@+id/rl_add_friends"
+                style="@style/view_press_style">
+                <TextView
+                    style="@style/center_in_relativelayout"
+                    android:padding="10dp"
+                    android:text="@string/add_friends"
+                    android:textSize="@dimen/common_text_size" />
+                <TextView
+                    style="@style/center_in_relativelayout"
+                    android:layout_alignParentRight="true"
+                    android:drawablePadding="10dp"
+                    android:drawableRight="@drawable/more_sml"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    />
+            </RelativeLayout>
+            <View
+                android:layout_alignParentBottom="true"
+                style="@style/horizontal_divider"
+                ></View>
+            <RelativeLayout
+                android:id="@+id/rl_myfiends"
+                style="@style/view_press_style">
+                <TextView
+                    style="@style/center_in_relativelayout"
+                    android:padding="10dp"
+                    android:text="@string/my_friends"
+                    android:textSize="@dimen/common_text_size" />
+                <TextView
+                    style="@style/center_in_relativelayout"
+                    android:layout_alignParentRight="true"
+                    android:drawablePadding="10dp"
+                    android:drawableRight="@drawable/more_sml"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="0/0" />
+            </RelativeLayout>
+            <View
+                android:layout_alignParentBottom="true"
+                style="@style/horizontal_divider"
+                ></View>
+        </LinearLayout>
+    </zwb.social.view.huitanScrollView.StretchScrollView>
+</LinearLayout>

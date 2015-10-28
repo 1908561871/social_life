@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    style="@style/layout_white_bg">
+
+    <zwb.social.view.huitanScrollView.StretchScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </zwb.social.view.huitanScrollView.StretchScrollView>
+
+    <Button
+        android:id="@+id/bt_add_friends"
+        android:text="@string/add_friends"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="@color/white"
+        android:background="@drawable/circle_button"/>
+
+
+</LinearLayout>

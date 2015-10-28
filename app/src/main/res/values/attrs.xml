@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="errorColor" format="color"/>
+    <attr name="maxCharacters" format="integer"/>
+    <declare-styleable name="MatchView">
+        <attr name="matchViewText" format="string" />
+        <attr name="matchViewTextColor" format="color" />
+        <attr name="matchViewTextSize" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="PullScrollView">
+        <attr name="psv_header" format="reference"/>
+        <attr name="psv_headerHeight" format="dimension"/>
+        <attr name="psv_headerVisibleHeight" format="dimension"/>
+    </declare-styleable>
+    <declare-styleable name="ProgressLayout">
+        <attr name="progressLayoutProgressBackground" format="color"/>
+        <attr name="progressLayoutProgress" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="materialEditText">
+        <!-- Highlight color of floating label text and underline. -->
+        <attr name="backgroundColor" format="color"/>
+        <!-- Error color of under line text and underline. -->
+        <attr name="errorColor"/>
+        <!-- Enable floating label text. -->
+        <attr name="floatingLabel" format="boolean"/>
+        <!-- Max characters count limit. 0 means no max. -->
+        <attr name="maxCharacters"/>
+        <!-- Icon (ImageView) associated to this EditText. -->
+        <attr name="withIcon" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="fullwidthEditText">
+        <!-- Error color of under line text and underline. -->
+        <attr name="errorColor"/>
+        <!-- Max characters count limit. 0 means no max. -->
+        <attr name="maxCharacters"/>
+    </declare-styleable>
+    <declare-styleable name="MarqueeView">
+        <attr name="marqueeSpeed" format="integer" />
+        <attr name="pause" format="integer" />
+        <attr name="autoStart" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+        <attr name="border_overlay" format="boolean" />
+    </declare-styleable>
+</resources>
